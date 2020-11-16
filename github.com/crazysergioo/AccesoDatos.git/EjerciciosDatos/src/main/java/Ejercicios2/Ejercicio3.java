@@ -32,7 +32,7 @@ public class Ejercicio3 {
 
 				asciiValor = (int) caracterChar;
 
-				if(asciiValor==65533) {
+				if(asciiValor>=128) {
 					contador++;
 				}
 

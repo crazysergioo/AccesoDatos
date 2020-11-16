@@ -14,7 +14,7 @@ public class Ejercicio4 {
 try {
 			
 			
-			File file = new File("C:\\Users\\Sergee\\Desktop\\quijote.txt");
+			File file = new File("quijote.txt");
 					
 			FileReader fileReader = new FileReader(file);
 			

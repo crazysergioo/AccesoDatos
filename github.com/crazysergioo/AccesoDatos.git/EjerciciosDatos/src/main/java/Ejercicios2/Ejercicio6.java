@@ -65,31 +65,39 @@ try {
 
 try {
 
-		File file = new File("C:\\Users\\Sergee\\Desktop\\quijote.txt");
-
-		File file2 = new File("..\\..\\..\\..\\..\\..\\salida-quijote.txt");
-		
-		FileReader fileReader = new FileReader(file);
-
-		FileWriter fileWriter = new FileWriter(file2);
+	String linea;
+	
+	File file = new File("quijote.txt");
+	
+	File file2 = new File("salida-quijote.txt");
+			
+	FileReader fileReader = new FileReader(file);
+	
+	FileWriter fileWriter = new FileWriter(file2);
+	
+	BufferedReader filebuffer = new BufferedReader(fileReader);	
+	
+	BufferedWriter writeBuffer = new BufferedWriter(fileWriter);
+	
+	
 
 		int i;
 
-		String readMessage = " ";
+		StringBuilder fileContent = new StringBuilder();
 
-		while ((i = fileReader.read()) != -1) {
+        while ((linea = filebuffer.readLine()) != null){
+            fileContent.append(linea).append("\r\n");
+        }
+        long inicio2 = System.currentTimeMillis();
+        
+        filebuffer.close();
+        
+        writeBuffer.write(fileContent.toString());
+        writeBuffer.close();
 
-			readMessage += (char) i;
+        
 
-		}
-
-		fileReader.close();
-
-		fileWriter.write(readMessage);
-
-		fileWriter.close();
-
-		long sumaTiempo2 = System.currentTimeMillis()- inicio;
+		long sumaTiempo2 = System.currentTimeMillis()- inicio2;
 
 		System.out.println("Con fileWriter tarda" + sumaTiempo2); //395379 aproximadamente
 
