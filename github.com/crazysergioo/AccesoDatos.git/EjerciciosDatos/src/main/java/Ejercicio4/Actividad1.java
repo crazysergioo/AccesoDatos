@@ -19,25 +19,25 @@ public class Actividad1 {
 
 	public static void main(String[] args) {
 		
-		String valorSilencio = "00000000";
+		byte valorSilencio = 00000000;
 		
-		String valorSI = "00000111";
+		byte valorSI = 0b00000111;
 		
-		String valorDO = "00000001";
+		byte valorDO = 0b00000001;
 		
-		String valorRE = "00000010";
+		byte valorRE = 0b00000010;
 		
-		String valorMI = "00000011";
+		byte valorMI = 0b00000011;
 		
-		String valorFA = "00000100";
+		byte valorFA = 0b00000100;
 		
-		String valorSOL = "00000101";
+		byte valorSOL = 0b00000101;
 		
-		String valorLA = "00000110";
+		byte valorLA = 0b00000110;
 
 		File file = new File("himno.txt");
 		
-		File file2 = new File("himno.notas.txt");
+		File file2 = new File("himno.notas");
 		
 		File file3 = new File("himno.hash.txt");
 		
@@ -65,7 +65,7 @@ public class Actividad1 {
 			
 			String readMessage = " ";
 			
-			String hash = "";
+			CalcularMd5 md5 = new CalcularMd5();
 			
 			do {
 				
@@ -75,46 +75,64 @@ public class Actividad1 {
 				
 				String[] palabras = Pattern.compile("\\s+").split(readMessage);
 				
+				byte [] arrayBits = new byte [palabras.length];
+				
 				for(int j = 0;j<palabras.length;j++) {
 					
 					if(palabras[j].equals("SILENCIO")) {
 						
-						bufferedWritter.write(valorSilencio);
+						arrayBits[j] = valorSilencio;
+						
+						bufferedWritter.write(arrayBits[j]);
 						
 					}
 					else if(palabras[j].equals("SI")) {
 						
-						bufferedWritter.write(valorSI);
+						arrayBits[j] = valorSI;
+						
+						bufferedWritter.write(arrayBits[j]);
 						
 					}
 					else if(palabras[j].equals("DO")) {
 						
-						bufferedWritter.write(valorDO);
+						arrayBits[j] = valorDO;
+						
+						bufferedWritter.write(arrayBits[j]);
 						
 					}
 					else if(palabras[j].equals("RE")) {
 						
-						bufferedWritter.write(valorRE);
+						arrayBits[j] = valorRE;
+						
+						bufferedWritter.write(arrayBits[j]);
 						
 					}
 					else if(palabras[j].equals("MI")) {
 						
-						bufferedWritter.write(valorMI);
+						arrayBits[j] = valorMI;
+						
+						bufferedWritter.write(arrayBits[j]);
 						
 					}
 					else if(palabras[j].equals("FA")) {
 						
-						bufferedWritter.write(valorFA);
+						arrayBits[j] = valorFA;
+						
+						bufferedWritter.write(arrayBits[j]);
 						
 					}
 					else if(palabras[j].equals("SOL")) {
 						
-						bufferedWritter.write(valorSOL);
+						arrayBits[j] = valorSOL;
+						
+						bufferedWritter.write(arrayBits[j]);
 						
 					}
 					else if(palabras[j].equals("LA")) {
 						
-						bufferedWritter.write(valorLA);
+						arrayBits[j] = valorLA;
+						
+						bufferedWritter.write(arrayBits[j]);
 						
 					}
 					
@@ -128,21 +146,14 @@ public class Actividad1 {
 			bufferedReader.close();
 			
 			bufferedWritter.close();
-			
-			String md5 = " ";
-			
-			for(int x = 0;x<readMessage.length();x++) {
 				
-//				md5 += Integer.toHexString((readMessage))
-				
-			}
-			
-			
-			
+			System.out.println(md5.obtenerMD5ComoString("himno.notas"));
 		} catch (IOException e) {
 			
 			
 			e.printStackTrace();
+		}catch (Exception e) {
+			
 		}
 		
 		//interfaz del dibujo clase jpanel( implementar paint component)  y jframe

@@ -8,14 +8,15 @@ import java.io.IOException;
 
 public class BufferedReader {
 
+	int contador = 0;
 	
-	public final int TAMAÑOPORDEFECTO = 8192;
+	public final String[] TAMAÑOPORDEFECTO = new String [8192];
 	
-	String RUTAPORDEFECTO = "quijote.txt";
+	String RUTAPORDEFECTO = "entrada.txt";
 
 	File file = new File(RUTAPORDEFECTO);
 	
-	private int buffer;
+	private String [] buffer;
 	
 	FileReader fileReader;
 	
@@ -40,7 +41,7 @@ public class BufferedReader {
 		buffer=TAMAÑOPORDEFECTO;
 	}
 	
-	public BufferedReader(String ruta,int buffer) {
+	public BufferedReader(String ruta,String[] buffer) {
 		
 		setRuta(ruta);
 		this.buffer=buffer;
@@ -53,9 +54,9 @@ public class BufferedReader {
 		return RUTAPORDEFECTO;
 	}
 	
-	public String readLine() throws IOException {
+	public  void readLine() throws IOException {
 		
-		String readMessage = " ";
+		String readMessage = "";
 		
 		int i;
 		
@@ -68,13 +69,29 @@ public class BufferedReader {
 		while( (i = fileReader.read() ) != -1 ) {	
 			
 			if(i == 10) {
-				break;
+				
+					/*QUE NO HAGA NADA YA QUE AL SER ESE CARACTER SIGNIFICA FIN DE LINEA Y 
+					POR LO TANTO LO SIGUIENTE ES ESCRIBIR EN EL SIGUIENTE PARRAFO
+					*/
+				
 			}else {
-			
-			readMessage += (char) i;
-
+				
+				contador = 0;
+	
+				buffer[contador] += (char) i;
+				
+				contador++;
+				
 			}
-		}System.out.println(readMessage);
+		}
+		
+		for(int j = 0;j<contador;j++) {
+			
+			System.out.println(buffer[j]);
+			
+		}
+		
+//		System.out.println(buffer);
 		
 		}catch (FileNotFoundException e) {
 			
@@ -85,10 +102,27 @@ public class BufferedReader {
 			e.printStackTrace();
 			
 		}
-		return readMessage;
+		
 	}
 	
-	public void close() {
+	public void close() throws FileNotFoundException {
+		
+		try {
+		file = new File(RUTAPORDEFECTO);
+		
+		fileReader = new FileReader(file);
+		
+		fileReader.close();
+		
+		}catch (FileNotFoundException e) {
+			
+			e.printStackTrace();
+			
+		}catch (IOException e) {
+			
+			e.printStackTrace();
+			
+		}
 		
 	}
 	
