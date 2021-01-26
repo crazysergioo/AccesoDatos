@@ -1,0 +1,4 @@
+nombre: Nerea
+apellido: Prieto
+grupo: ASIR
+fecha: 13 enero 1997

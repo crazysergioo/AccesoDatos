@@ -1,0 +1,4 @@
+nombre: Valeria
+apellido: Jiménez
+grupo: SMR
+fecha: 27 diciembre 1986

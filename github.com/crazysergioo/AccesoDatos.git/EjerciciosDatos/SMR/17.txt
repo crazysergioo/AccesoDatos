@@ -1,0 +1,4 @@
+nombre: Javier
+apellido: Díez
+grupo: SMR
+fecha: 04 marzo 1981

@@ -1,0 +1,4 @@
+nombre: Alejandra
+apellido: Domínguez
+grupo: SMR
+fecha: 31 marzo 1984

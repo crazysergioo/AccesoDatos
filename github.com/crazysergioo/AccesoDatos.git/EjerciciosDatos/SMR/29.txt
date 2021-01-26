@@ -1,0 +1,4 @@
+nombre: Izan
+apellido: Reyes
+grupo: SMR
+fecha: 27 julio 1984

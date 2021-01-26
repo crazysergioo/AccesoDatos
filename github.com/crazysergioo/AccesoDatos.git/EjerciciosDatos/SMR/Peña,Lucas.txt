@@ -1,0 +1,4 @@
+nombre: Lucas
+apellido: Peña
+grupo: SMR
+fecha: 21 noviembre 1984

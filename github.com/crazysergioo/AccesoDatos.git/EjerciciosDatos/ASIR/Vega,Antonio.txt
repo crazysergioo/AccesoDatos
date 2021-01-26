@@ -1,0 +1,4 @@
+nombre: Antonio
+apellido: Vega
+grupo: ASIR
+fecha: 27 abril 1981

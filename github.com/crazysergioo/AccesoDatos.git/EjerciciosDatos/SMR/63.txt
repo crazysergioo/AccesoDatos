@@ -1,0 +1,4 @@
+nombre: Valentina
+apellido: Muñoz
+grupo: SMR
+fecha: 02 marzo 1999

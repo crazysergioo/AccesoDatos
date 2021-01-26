@@ -1,0 +1,4 @@
+nombre: Carlos
+apellido: Santana
+grupo: DAM
+fecha: 07 enero 1984

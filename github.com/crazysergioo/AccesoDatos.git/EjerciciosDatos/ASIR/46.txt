@@ -1,0 +1,4 @@
+nombre: Carlos
+apellido: Santana
+grupo: ASIR
+fecha: 06 junio 1988

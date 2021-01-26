@@ -1,0 +1,4 @@
+nombre: Miguel
+apellido: Montero
+grupo: DAM
+fecha: 01 diciembre 2000

@@ -1,0 +1,4 @@
+nombre: Darío
+apellido: Pastor
+grupo: ASIR
+fecha: 16 mayo 1990

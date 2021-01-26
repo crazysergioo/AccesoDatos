@@ -1,0 +1,4 @@
+nombre: Alberto
+apellido: Rojas
+grupo: ASIR
+fecha: 24 enero 1998

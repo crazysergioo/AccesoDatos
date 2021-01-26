@@ -1,0 +1,4 @@
+nombre: José
+apellido: Crespo
+grupo: SMR
+fecha: 01 febrero 1988

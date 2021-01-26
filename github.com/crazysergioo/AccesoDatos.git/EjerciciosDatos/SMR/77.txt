@@ -1,0 +1,4 @@
+nombre: Carmen
+apellido: Moreno
+grupo: SMR
+fecha: 30 julio 1999

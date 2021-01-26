@@ -1,0 +1,4 @@
+nombre: Claudia
+apellido: Díaz
+grupo: SMR
+fecha: 03 enero 1995

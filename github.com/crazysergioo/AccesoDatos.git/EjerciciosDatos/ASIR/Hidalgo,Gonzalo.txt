@@ -1,0 +1,4 @@
+nombre: Gonzalo
+apellido: Hidalgo
+grupo: ASIR
+fecha: 07 noviembre 1998

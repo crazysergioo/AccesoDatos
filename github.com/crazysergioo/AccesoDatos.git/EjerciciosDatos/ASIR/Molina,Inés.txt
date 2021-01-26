@@ -1,0 +1,4 @@
+nombre: Inés
+apellido: Molina
+grupo: ASIR
+fecha: 03 mayo 1987

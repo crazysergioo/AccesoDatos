@@ -1,0 +1,4 @@
+nombre: Marina
+apellido: Sanz
+grupo: ASIR
+fecha: 11 octubre 1994

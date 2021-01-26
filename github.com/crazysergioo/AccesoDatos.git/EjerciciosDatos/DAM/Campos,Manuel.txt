@@ -1,0 +1,4 @@
+nombre: Manuel
+apellido: Campos
+grupo: DAM
+fecha: 03 mayo 1993

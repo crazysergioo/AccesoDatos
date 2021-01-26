@@ -1,0 +1,4 @@
+nombre: Nora
+apellido: Rubio
+grupo: DAM
+fecha: 17 mayo 1980

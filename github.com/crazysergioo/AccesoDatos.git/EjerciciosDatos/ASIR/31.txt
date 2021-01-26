@@ -1,0 +1,4 @@
+nombre: Alejandro
+apellido: Vidal
+grupo: ASIR
+fecha: 14 septiembre 1993

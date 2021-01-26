@@ -1,0 +1,4 @@
+nombre: Emma
+apellido: Hernández
+grupo: SMR
+fecha: 07 mayo 1989

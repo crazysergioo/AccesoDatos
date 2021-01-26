@@ -1,0 +1,4 @@
+nombre: Thiago
+apellido: Esteban
+grupo: DAM
+fecha: 28 abril 1987

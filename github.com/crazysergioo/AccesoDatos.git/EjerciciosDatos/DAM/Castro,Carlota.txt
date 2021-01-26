@@ -1,0 +1,4 @@
+nombre: Carlota
+apellido: Castro
+grupo: DAM
+fecha: 11 enero 1992

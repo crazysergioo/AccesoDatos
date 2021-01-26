@@ -1,0 +1,4 @@
+nombre: Daniel
+apellido: Cruz
+grupo: SMR
+fecha: 03 septiembre 1997

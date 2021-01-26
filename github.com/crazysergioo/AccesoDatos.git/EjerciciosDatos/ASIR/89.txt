@@ -1,0 +1,4 @@
+nombre: Ana
+apellido: Álvarez
+grupo: ASIR
+fecha: 01 enero 1993

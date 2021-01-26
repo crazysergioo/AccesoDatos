@@ -1,0 +1,4 @@
+nombre: Javier
+apellido: Díez
+grupo: DAM
+fecha: 03 junio 1987

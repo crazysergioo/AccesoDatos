@@ -1,0 +1,4 @@
+nombre: Rocío
+apellido: Guerrero
+grupo: SMR
+fecha: 30 septiembre 1989

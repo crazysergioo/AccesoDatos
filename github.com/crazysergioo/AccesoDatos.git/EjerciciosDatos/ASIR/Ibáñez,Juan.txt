@@ -1,0 +1,4 @@
+nombre: Juan
+apellido: Ibáñez
+grupo: ASIR
+fecha: 27 junio 1980

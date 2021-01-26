@@ -1,0 +1,4 @@
+nombre: Carlos
+apellido: Santana
+grupo: SMR
+fecha: 13 junio 1982

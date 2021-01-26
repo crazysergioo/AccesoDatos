@@ -1,0 +1,4 @@
+nombre: Julia
+apellido: Pérez
+grupo: DAM
+fecha: 17 enero 1990

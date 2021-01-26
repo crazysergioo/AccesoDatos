@@ -1,0 +1,4 @@
+nombre: Guillermo
+apellido: Casado
+grupo: SMR
+fecha: 13 junio 1990

@@ -1,0 +1,4 @@
+nombre: Iván
+apellido: Arias
+grupo: SMR
+fecha: 07 abril 1983

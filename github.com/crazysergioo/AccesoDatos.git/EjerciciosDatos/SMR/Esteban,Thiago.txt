@@ -1,0 +1,4 @@
+nombre: Thiago
+apellido: Esteban
+grupo: SMR
+fecha: 20 noviembre 1989

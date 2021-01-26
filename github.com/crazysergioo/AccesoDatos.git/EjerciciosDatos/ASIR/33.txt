@@ -1,0 +1,4 @@
+nombre: Marco
+apellido: Vargas
+grupo: ASIR
+fecha: 08 mayo 1998

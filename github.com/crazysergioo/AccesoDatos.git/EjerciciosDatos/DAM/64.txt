@@ -1,0 +1,4 @@
+nombre: Mateo
+apellido: Flores
+grupo: DAM
+fecha: 01 septiembre 1995

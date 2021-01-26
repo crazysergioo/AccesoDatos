@@ -1,0 +1,4 @@
+nombre: Marcos
+apellido: Caballero
+grupo: ASIR
+fecha: 02 septiembre 1992

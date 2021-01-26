@@ -1,0 +1,4 @@
+nombre: Ángel
+apellido: Ferrer
+grupo: SMR
+fecha: 07 enero 1990

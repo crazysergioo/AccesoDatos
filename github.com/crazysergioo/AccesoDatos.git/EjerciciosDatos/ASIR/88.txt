@@ -1,0 +1,4 @@
+nombre: Leo
+apellido: Carrasco
+grupo: ASIR
+fecha: 20 marzo 1998

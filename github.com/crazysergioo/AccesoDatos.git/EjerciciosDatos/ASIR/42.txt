@@ -1,0 +1,4 @@
+nombre: Jorge
+apellido: Lorenzo
+grupo: ASIR
+fecha: 30 octubre 1991

@@ -1,0 +1,4 @@
+nombre: Antonio
+apellido: Vega
+grupo: DAM
+fecha: 07 septiembre 1982

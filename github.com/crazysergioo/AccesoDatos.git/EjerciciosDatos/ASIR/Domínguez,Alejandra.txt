@@ -1,0 +1,4 @@
+nombre: Alejandra
+apellido: Domínguez
+grupo: ASIR
+fecha: 08 septiembre 1998

@@ -1,0 +1,4 @@
+nombre: Mateo
+apellido: Flores
+grupo: DAM
+fecha: 30 marzo 1987

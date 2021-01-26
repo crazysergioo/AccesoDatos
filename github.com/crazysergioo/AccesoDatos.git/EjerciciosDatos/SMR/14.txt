@@ -1,0 +1,4 @@
+nombre: Candela
+apellido: Ortega
+grupo: SMR
+fecha: 18 octubre 1999

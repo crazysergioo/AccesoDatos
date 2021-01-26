@@ -1,0 +1,4 @@
+nombre: Aitana
+apellido: Morales
+grupo: SMR
+fecha: 27 julio 1993

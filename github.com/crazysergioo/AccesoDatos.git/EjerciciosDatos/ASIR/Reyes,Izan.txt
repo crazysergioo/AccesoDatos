@@ -1,0 +1,4 @@
+nombre: Izan
+apellido: Reyes
+grupo: ASIR
+fecha: 17 julio 2000

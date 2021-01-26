@@ -1,0 +1,4 @@
+nombre: Adam
+apellido: Soler
+grupo: ASIR
+fecha: 13 julio 1988

@@ -1,0 +1,4 @@
+nombre: Mateo
+apellido: Flores
+grupo: SMR
+fecha: 23 marzo 1999

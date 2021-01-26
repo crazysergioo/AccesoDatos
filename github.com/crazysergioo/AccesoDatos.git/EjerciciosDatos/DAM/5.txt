@@ -1,0 +1,4 @@
+nombre: Antonio
+apellido: Vega
+grupo: DAM
+fecha: 01 marzo 2000

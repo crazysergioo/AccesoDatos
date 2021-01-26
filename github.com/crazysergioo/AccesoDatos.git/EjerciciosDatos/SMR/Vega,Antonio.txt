@@ -1,0 +1,4 @@
+nombre: Antonio
+apellido: Vega
+grupo: SMR
+fecha: 04 abril 1989

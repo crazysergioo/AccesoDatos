@@ -1,0 +1,4 @@
+nombre: Oliver
+apellido: Durán
+grupo: SMR
+fecha: 21 abril 1989

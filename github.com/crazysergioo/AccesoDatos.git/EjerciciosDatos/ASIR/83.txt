@@ -1,0 +1,4 @@
+nombre: Álvaro
+apellido: Márquez
+grupo: ASIR
+fecha: 05 julio 1992

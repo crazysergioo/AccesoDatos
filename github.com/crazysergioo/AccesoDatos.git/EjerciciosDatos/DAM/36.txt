@@ -1,0 +1,4 @@
+nombre: Alejandra
+apellido: Domínguez
+grupo: DAM
+fecha: 27 febrero 1982

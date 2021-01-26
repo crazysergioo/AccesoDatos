@@ -1,0 +1,4 @@
+nombre: Manuel
+apellido: Campos
+grupo: SMR
+fecha: 07 diciembre 1987

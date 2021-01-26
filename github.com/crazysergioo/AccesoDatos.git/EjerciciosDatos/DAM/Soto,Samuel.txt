@@ -1,0 +1,4 @@
+nombre: Samuel
+apellido: Soto
+grupo: DAM
+fecha: 25 agosto 1997

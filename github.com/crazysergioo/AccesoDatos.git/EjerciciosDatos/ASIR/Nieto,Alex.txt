@@ -1,0 +1,4 @@
+nombre: Alex
+apellido: Nieto
+grupo: ASIR
+fecha: 08 julio 1986

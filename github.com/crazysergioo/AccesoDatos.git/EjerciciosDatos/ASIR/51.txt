@@ -1,0 +1,4 @@
+nombre: Diego
+apellido: Fuentes
+grupo: ASIR
+fecha: 23 agosto 1987

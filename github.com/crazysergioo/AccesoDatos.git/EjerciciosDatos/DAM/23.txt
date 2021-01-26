@@ -1,0 +1,4 @@
+nombre: Lucía
+apellido: García
+grupo: DAM
+fecha: 20 abril 1995

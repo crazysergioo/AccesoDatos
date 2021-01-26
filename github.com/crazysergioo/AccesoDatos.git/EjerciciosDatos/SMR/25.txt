@@ -1,0 +1,4 @@
+nombre: Marcos
+apellido: Caballero
+grupo: SMR
+fecha: 03 abril 1996

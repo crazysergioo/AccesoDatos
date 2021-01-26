@@ -1,0 +1,4 @@
+nombre: Héctor
+apellido: Román
+grupo: SMR
+fecha: 14 septiembre 1988

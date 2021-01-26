@@ -1,0 +1,4 @@
+nombre: Noa
+apellido: Ruíz
+grupo: ASIR
+fecha: 23 diciembre 1980

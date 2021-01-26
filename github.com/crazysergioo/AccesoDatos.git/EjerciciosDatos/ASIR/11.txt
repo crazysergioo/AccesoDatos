@@ -1,0 +1,4 @@
+nombre: Aitor
+apellido: Gallardo
+grupo: ASIR
+fecha: 09 marzo 1999
