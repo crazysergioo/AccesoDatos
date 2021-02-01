@@ -36,11 +36,16 @@ public class Ejercicio3_3 {
 		 * 
 		
 		 */
+		String noPedido1 = null;
+    	String noPedido2 = null;
+    	String noPedido3 = null;
+    	String noPedido4 = null;
+
 		
-		int contadorId = 0;
-		int contadorCliente = 0;
+		int contadorPedido = 0;
 		int contadorproducto = 0;
-		int contadorFecha = 0;
+		int contadorcliente = 0;
+		int contadorUltimo = 0;
 		
 		try {
 
@@ -54,8 +59,6 @@ public class Ejercicio3_3 {
 
 			document.getDocumentElement().normalize();
 
-			XPath xPath = XPathFactory.newInstance().newXPath();
-
 			NodeList listaPedidos = document.getElementsByTagName("items");
 
 			for (int i = 0; i < listaPedidos.getLength(); i++) {
@@ -63,36 +66,60 @@ public class Ejercicio3_3 {
 				Node nodo = listaPedidos.item(i);
 
 				Element element = (Element) nodo;
+				
+				NodeList hijo = element.getChildNodes();
+				
+				for (int j = 0; j < hijo.getLength(); j++) {
+		            // Obtengo al hijo actual
+		            Node hijos = hijo.item(j);
 
-				if (nodo.getNodeType() == Node.ELEMENT_NODE) {
-					
-					String id = element.getAttribute("id");
-					
-					contadorId++;
+		            // Compruebo si es un nodo
+		            if (hijos.getNodeType() == Node.ELEMENT_NODE) {
+		            	
+		            	
+		                // Muestro el contenido
+		            	noPedido1 = hijos.getNodeName();
+		            	contadorPedido++;
+		            	if(hijos.getNodeName()!="pedido") {
+		            		 noPedido2 = hijos.getNodeName();
+		            		 contadorproducto++;
+		            		
+		            		if(noPedido1!="producto") {
+		            			 noPedido3 = hijos.getNodeName();
+		            			 contadorcliente++;
+		            			
+		            			if(noPedido2!="cliente") {
+		            			 noPedido4 = hijos.getNodeName();
+		            			 contadorUltimo++;
+		            			}
+		            			
+		            		}
+		            		
+		            	}
+		            	
+		            	
+		            	
+//		                System.out.println("Propiedad: " + hijos.getNodeName() + hijos.getTextContent());
+		                
+		            }
+		 
+		        }
+				System.out.println(noPedido1 + " aparece " + contadorPedido + " veces");
+            	System.out.println(noPedido2 + " aparece " + contadorproducto + " veces");
+            	System.out.println(noPedido3 + " aparece " + contadorcliente + " veces");
+            	System.out.println(noPedido4 + " aparece " + contadorUltimo + " veces");
 
-					String nomclientebre = element.getElementsByTagName("cliente").item(0).getTextContent();
-					
-					contadorCliente++;
-					
-					String producto = element.getElementsByTagName("producto").item(0).getTextContent();
-					
-					contadorproducto++;
-
-					String fecha = element.getElementsByTagName("fecha").item(0).getTextContent();
-					
-					contadorFecha++;
-										
-				}
+			
 
 			}
 			
-			System.out.println("numero de clientes: " + contadorCliente);
-
-			System.out.println("numero de id: " + contadorId);
-			
-			System.out.println("numero de productos " + contadorproducto);
-
-			System.out.println("numero de fechas: " + contadorFecha);
+//			System.out.println("numero de clientes: " + contadorCliente);
+//
+//			System.out.println("numero de id: " + contadorId);
+//			
+//			System.out.println("numero de productos " + contadorproducto);
+//
+//			System.out.println("numero de fechas: " + contadorFecha);
 
 			
 		} catch (ParserConfigurationException e) {
@@ -108,5 +135,34 @@ public class Ejercicio3_3 {
 
 		
 	}
-
+	  
+//	  System.out.println(nd.getNodeName());
+//	  System.out.println(nd.getNodeName());
+//	  if (nodo.getNodeType() == Node.ELEMENT_NODE) {
+//			
+//			String id = element.getAttribute("id");
+//			
+//			contadorId++;
+//			
+//			System.out.println(id);
+//
+//			String nomclientebre = element.getElementsByTagName("cliente").item(0).getTextContent();
+//			
+//			contadorCliente++;
+//			
+//			System.out.println(nomclientebre);
+//			
+//			String producto = element.getElementsByTagName("producto").item(0).getTextContent();
+//			
+//			System.out.println(producto);
+//			
+//			contadorproducto++;
+//
+//			String fecha = element.getElementsByTagName("fecha").item(0).getTextContent();
+//			
+//			contadorFecha++;
+//			
+//			System.out.println(fecha);
+//								
+//		}
 }
